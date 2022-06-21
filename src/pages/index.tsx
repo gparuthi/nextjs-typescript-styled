@@ -1,11 +1,9 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   padding: 10px;
-  color: white;
+  color: white;l
 `;
 const Centered = styled.div`
   display: flex;
