@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Head>test</Head>
-      <Image src="/vercel.svg"></Image>
+      <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
     </Container>
   );
 };
