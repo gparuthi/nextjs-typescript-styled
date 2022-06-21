@@ -4,12 +4,21 @@ import Image from "next/image";
 import styled from "styled-components";
 const Container = styled.div`
   display: flex;
+  padding: 10px;
+  color: white;
+`;
+const Centered = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  border: 3px solid green;
 `;
 const Home: NextPage = () => {
   return (
     <Container>
-      <Head>test</Head>
-      <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+      <Centered>hello world</Centered>
     </Container>
   );
 };
