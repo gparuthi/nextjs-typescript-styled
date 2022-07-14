@@ -18,7 +18,7 @@ const Centered = styled.div`
 const Content = styled.div`
 display: flex;
   width: 500px;
-  height 500px;
+  height: 500px;
   background-color: charcoal;
   flex-direction: column;
   justify-content: center;
