@@ -6,10 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "up": "yarn upgrade-interactive --latest"
   },
   "dependencies": {
-    "@svgr/webpack": "^6.2.1",
+    "@svgr/webpack": "^6.3.0",
     "next": "^12.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
